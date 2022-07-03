@@ -1,0 +1,111 @@
+@page {
+	width: 295mm;
+	height: 200mm;
+	margin: 0px;
+	justify-content: center;
+}
+
+@media print {
+	.ColTabela02 {
+		text-align: center;
+	}
+
+	.ColTabela01 {
+		text-align: center;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bolder;
+		font-size: 40px;
+		color: rgb(0, 0, 0);
+	}
+
+	.DivPrincipal {
+		/*border:solid 1px;*/
+		width: 295mm;
+		height: 210mm;
+		max-height: 210mm;
+		max-width: 295mm;
+		margin-top: 0mm;
+		margin-left: 0mm;
+		margin-right: 0mm;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bolder;
+		page-break-after: always;
+
+	}
+
+	.Desc {
+		/*border:solid 1px;*/
+		margin-top: 3mm;
+		margin-bottom: 3mm;
+		height: auto;
+		width: 295mm;
+		word-wrap: break-word;
+		font-size: 140px;
+		text-align: center;
+		vertical-align: middle;
+		color: #000;
+		line-height: 28mm;
+		/*Altura do espaço entre linhas*/
+		letter-spacing: -5px;
+	}
+
+	.Ean {
+		/*border:solid 1px;*/
+		height: 20mm;
+		width: 295mm;
+		font-size: 110px;
+		text-align: center;
+		vertical-align: middle;
+		color: #000;
+		line-height: 28mm;
+		/*Altura do espaço entre linhas*/
+		letter-spacing: -5px;
+	}
+
+	.Lote {
+		/*border:solid 1px;*/
+		text-align: left;
+		height: 60mm;
+		width: 95mm;
+		word-wrap: break-word;
+		margin: 0;
+		color: #000;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bolder;
+		text-align: center;
+		font-size: 100px;
+		letter-spacing: -5px;
+		line-height: 22mm;
+		/*Altura do espaço entre linhas*/
+	}
+
+	.Entrada {
+		/*border:solid 1px;*/
+		height: 60mm;
+		width: 100mm;
+		word-wrap: break-word;
+		color: #000;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bolder;
+		text-align: center;
+		font-size: 100px;
+		letter-spacing: -5px;
+		line-height: 22mm;
+		/*Altura do espaço entre linhas*/
+	}
+
+	.Validade {
+		/*border:solid 1px;*/
+		height: 60mm;
+		width: 100mm;
+		word-wrap: break-word;
+		color: #000;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bolder;
+		text-align: center;
+		font-size: 100px;
+		letter-spacing: -5px;
+		line-height: 22mm;
+		/*Altura do espaço entre linhas*/
+	}
+}
